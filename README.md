@@ -90,8 +90,8 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 
 4.3.2 Robot Racecar 1.0 Bill of Materials:
 
-<img src="" height=300/>
-<img src="" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture1.png" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture2.png" height=300/>
 
 (This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves components)
 
