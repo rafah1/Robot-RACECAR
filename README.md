@@ -122,9 +122,10 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 
 
 
-## Examples
+## Algorithms
 
-JetRacer comes with a couple examples to get you up and running.  The examples are in the format of Jupyter Notebooks, which are interactive documents which combine text, code, and visualization.  Once you've completed the notebooks, start tweaking them to create your own racing software!
+This is where all the magic happens!
+You will find under the project directory 
 
 ### Example 1 - Basic motion
 
