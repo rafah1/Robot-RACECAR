@@ -51,7 +51,7 @@ The robot racecar should be able to be fully autonomous; with a predefined numbe
 
 Any human intervention during the race will disqualify the robot racecar. In this sense the racecar is considered to be within autonomy level 5.
 
-Autonomous car racing is quickly becoming a new sport, like the new autonomous Indi-Car racing. Advancements in scale car racing will contribute to this nascent industry.
+Autonomous car racing is quickly becoming a new sport, like the Roborace Alpha, or the new Autonomous Indi-Car racing. Advancements in scale car racing will contribute to this nascent industry.
 
 **1.3 Description**
 
