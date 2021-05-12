@@ -9,7 +9,7 @@ Robot-RACECAR is an autonomous AI racecar, based on:
 
 ## References
 
-Robot-RACECAR is based on Nvidia IOT Jetbot resources, and inspired by the Nvidia jetracer:
+Robot-RACECAR is based on Nvidia IOT Jetbot resources:
 
 https://github.com/NVIDIA-AI-IOT/jetbot
 
