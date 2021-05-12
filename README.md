@@ -1,6 +1,7 @@
 # Robot-RACECAR
 
-Robot-RACECAR is an autonomous AI racecar, based on a 1/10th scale R/C racing chassis, using a Nvidia Jetson Nano SBC, a single camera input, and a servo controller.  
+Robot-RACECAR is an autonomous AI racecar, based on Nvidia a 1/10th scale R/C racing chassis, using a Nvidia Jetson Nano SBC, a single camera input, and a servo controller.  
+Robot-RACECAR is inspired in the Nvidia Jetracer.
 
 
 ## References
