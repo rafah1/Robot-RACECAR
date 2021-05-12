@@ -144,13 +144,5 @@ You will find under the notebooks project directory, a series of Jupyter notbook
 
 ## Setup
 
-For the software setup you can check [here]().
+For the software setup you can check [here](https://github.com/rafah1/Robot-RACECAR/blob/main/docs/software_setup.md).
 
-
-## See also
-
-* [JetBot](http://github.com/NVIDIA-AI-IOT/jetbot) - An educational AI robot based on NVIDIA Jetson Nano
-
-* [JetCam](http://github.com/NVIDIA-AI-IOT/jetcam) - An easy to use Python camera interface for NVIDIA Jetson
-* [JetCard](http://github.com/NVIDIA-AI-IOT/jetcard) - An SD card image for web programming AI projects with NVIDIA Jetson Nano
-* [torch2trt](http://github.com/NVIDIA-AI-IOT/torch2trt) - An easy to use PyTorch to TensorRT converter
