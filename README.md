@@ -147,3 +147,7 @@ You will find under the notebooks project directory, a series of Jupyter notbook
 
 For the software setup you can check [here](https://github.com/rafah1/Robot-RACECAR/blob/main/docs/software_setup.md).
 
+
+## Issues
+
+For any questions, please reach out by creating an issue.
