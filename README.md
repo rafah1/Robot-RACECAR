@@ -128,14 +128,14 @@ This is where all the magic happens!
 
 You will find under the notebooks project directory, a series of Jupyter notbooks with the code for the different experiments:
 
-  - interactive_regression1.ipynb
-  - interactive_regression1_ALEXNET.ipynb
-  - interactive_regression1_RESNET34.ipynb
-  - road_following1.ipynb
-  - road_following2.ipynb
-  - road_followin3.ipynb
-  - road_following1_ALEXNET.ipynb
-  - road_following1_RESNET34.ipynb
+    interactive_regression1.ipynb
+    interactive_regression1_ALEXNET.ipynb
+    interactive_regression1_RESNET34.ipynb
+    road_following1.ipynb
+    road_following2.ipynb
+    road_followin3.ipynb
+    road_following1_ALEXNET.ipynb
+    road_following1_RESNET34.ipynb
 
 
 ## Setup
