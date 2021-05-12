@@ -68,9 +68,7 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
  
  
  
-## Cars
-
-**4.3 Hardware needed:**
+## Hardware needed
 
 4.3.1 Racecar Proof of Concept Bill of Materials:
 
