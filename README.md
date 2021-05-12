@@ -125,19 +125,17 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 ## Algorithms
 
 This is where all the magic happens!
-You will find under the project directory 
+You will find under the notebooks project directory, a series of Jupyter notbooks with the code for the different experiments:
 
-### Example 1 - Basic motion
+interactive_regression1.ipynb
+interactive_regression1_ALEXNET.ipynb
+interactive_regression1_RESNET34.ipynb
+road_following1.ipynb
+road_following2.ipynb
+road_followin3.ipynb
+road_following1_ALEXNET.ipynb
+road_following1_RESNET34.ipynb
 
-In this example you'll learn to progam JetRacer programatically from your web browser.  Learn more in the [examples](docs/examples.md) documentation.
-
-<img src="https://user-images.githubusercontent.com/4212806/60383497-68d90a80-9a26-11e9-9a18-778b7d3a3221.gif" height=300/>
-
-### Example 2 - Road following
-
-In this example, you'll teach JetRacer how to follow a road using AI.  After training the neural network using the [interactive training notebook](notebooks/interactive_regression.ipynb), you'll optimize the model using NVIDIA TensorRT and deploy for a live demo. Learn more in the [examples](docs/examples.md).
-
-<img src="https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300/>
 
 ## Setup
 
