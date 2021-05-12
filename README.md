@@ -131,7 +131,7 @@ For the wiring you can check [here](https://github.com/rafah1/Robot-RACECAR/blob
 
 This is where all the magic happens!
 
-You will find under the notebooks project directory, a series of Jupyter notbooks with the code for the different experiments:
+You will find under the notebooks project directory, a series of Jupyter notebooks with the code for the different experiments:
 
     interactive_regression1.ipynb
     interactive_regression1_ALEXNET.ipynb
