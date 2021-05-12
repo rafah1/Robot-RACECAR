@@ -23,7 +23,7 @@ https://github.com/NVIDIA-AI-IOT/torch2trt
 
 
 ## Project Presentation
-Robot-RACEACAR Presentation Video:
+Robot-RACEACAR Project Presentation Video:
 
 https://youtu.be/KQGQ4Fs-Uek
 
