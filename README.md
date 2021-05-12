@@ -1,12 +1,11 @@
 # Robot-RACECAR
 
 Robot-RACECAR is an autonomous AI racecar, based on Nvidia a 1/10th scale R/C racing chassis, using a Nvidia Jetson Nano SBC, a single camera input, and a servo controller.  
-Robot-RACECAR is inspired in the Nvidia Jetracer.
 
 
 ## References
 
-Nvidia IOT Jetbot resources:
+Robot-RACECAR is based on Nvidia IOT Jetbot resources, and inspired by Nvidia Jetracer:
 
 https://github.com/NVIDIA-AI-IOT/jetbot
 
@@ -19,12 +18,47 @@ https://github.com/NVIDIA-AI-IOT/jetracer
 https://github.com/NVIDIA-AI-IOT/torch2trt
 
 
-
+## Project Presentation
 Robot-RACEACAR Presentation Video:
 
 https://youtu.be/KQGQ4Fs-Uek
 
+**1. Introduction:**
 
+R/C Scale car racing is a world-wide popular hobby, but scale cars can also be used as models for education and investigation purposes. The use of scale models allows us to model the real world in a controlled environment to proof and teach concepts, do research, or even take risks that we would never take in real scale.
+
+[Autonomous car racing](https://en.wikipedia.org/wiki/Autonomous_racing#:~:text=Autonomous%20or%20self%2Ddriving%20racing,E%20spin%2Doff%20series%20Roborace.) is an evolving international sport. Scale car racing has become a prime playground for self-driving vehicle experimentation. Multiple organizations use scale racecars in education and experimentation, like MIT, UPenn, AWS, etc. Several groups have started organizing and hosting autonomous scale racecars competitions. Some common vehicle R/C scales are 1/4, 1/5, 1/16, and 1/10, the last being the most popular.
+
+I want to prove if I can convert one of my 1/10 scale electric R/C racing cars in a self-driving 1/10 racecar robot, with a Jetson Nano SBC, and a servo motor controller onboard. This autonomous racecar robot will be tested on its ability to drive as fast as possible in a closed course, solving lane detection, obstacle avoidance, lane changing and outrun other racecars. Solving these challenges, this self-drive racecar should be able to compete in time-based laps competitions, like the ones hosted by DIY Robocars groups.
+
+  1. **Goals of the Project:**
+    1. Build a self-driving 1/10 scale electric racecar hardware which is more cost efficient and of better quality, based in an existing R/C chassis with a Nvidia Jetson Nano SBC onboard, as well as purchasing a few parts on amazon to build it. This turns out to be better overall than acquiring a robot kit like the [jetracer-Pro](https://www.waveshare.com/jetracer-pro-ai-kit.htm) from waveshare, or the [AWS deepRacer](https://www.amazon.com/dp/B07JMHRKQG) from amazon.
+    2. Develop the software solution to allow the racecar robot to drive, as fast as possible, in a closed course track with multiple lanes.
+    3. Solve autonomous navigation challenges in a closed course like: lane detection, obstacle avoidance, lane changing and outrun another racecar.
+
+**1.2 Level of Autonomy**
+
+The robot racecar should be able to be fully autonomous; with a predefined number of laps. The racecar will be placed on the start line, and a start action will trigger the car to complete the circuit in the shortest time possible.
+
+Any human intervention during the race will disqualify the robot racecar. In this sense the racecar is considered to be within autonomy level 5.
+
+Autonomous car racing is quickly becoming a new sport, like the new autonomous Indi-Car racing. Advancements in scale car racing will contribute to this nescient (rising) industry.
+
+  1. **Description**
+
+- Robot Racecar Hardware System overview
+
+![](RackMultipart20210512-4-7shque_html_ab00d50affbf0700.gif)
+
+- GPIO Diagram:
+
+![](RackMultipart20210512-4-7shque_html_f95526e0bbfeb7ca.gif)
+
+- Architecture of the application:
+ ![](RackMultipart20210512-4-7shque_html_13c169975070f9de.gif)
+ 
+ 
+ 
 ## Cars
 
 There are two different JetRacer cars that you can build.  They differ primarily in size and speed.  Which one to pick depends on your use case
