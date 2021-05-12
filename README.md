@@ -150,4 +150,4 @@ For the software setup you can check [here](https://github.com/rafah1/Robot-RACE
 
 ## Issues
 
-For any questions, please reach out by creating an issue.
+For any questions, please reach out by [creating an issue](../..//issues).
