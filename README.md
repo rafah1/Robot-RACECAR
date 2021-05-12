@@ -29,7 +29,7 @@ https://youtu.be/KQGQ4Fs-Uek
 
 
 
-## 1. Introduction:
+## Introduction
 
 R/C Scale car racing is a world-wide popular hobby, but scale cars can also be used as models for education and investigation purposes. The use of scale models allows us to model the real world in a controlled environment to proof and teach concepts, do research, or even take risks that we would never take in real scale.
 
@@ -37,15 +37,15 @@ R/C Scale car racing is a world-wide popular hobby, but scale cars can also be u
 
 I wanted to prove if I could convert one of my 1/10 scale electric R/C racing cars in a self-driving 1/10 racecar robot, with a Jetson Nano SBC, and a servo motor controller onboard. This autonomous racecar robot would be tested on its ability to drive as fast as possible in a closed course, solving lane detection, obstacle evasion, obstacle avoidance changing lanes changing as outrunning other racecars. Solving these challenges, this self-drive racecar should be able to compete in time-based laps competitions, like the ones hosted by [DIY Robocars groups](https://diyrobocars.com/).
 
-**1.1. Goals of the Project:**
+### Goals of the Project
   
- 1.1.1. Build a self-driving 1/10 scale electric racecar hardware which is more cost efficient and of better quality, based in an existing R/C chassis with a Nvidia Jetson Nano SBC onboard, as well as purchasing a few parts on amazon to build it. This turns out to be better overall than acquiring a robot kit like the [jetracer-Pro](https://www.waveshare.com/jetracer-pro-ai-kit.htm) from waveshare, or the [AWS deepRacer](https://www.amazon.com/dp/B07JMHRKQG) from amazon.
+* Build a self-driving 1/10 scale electric racecar hardware which is more cost efficient and of better quality, based in an existing R/C chassis with a Nvidia Jetson Nano SBC onboard, as well as purchasing a few parts on amazon to build it. This turns out to be better overall than acquiring a robot kit like the [jetracer-Pro](https://www.waveshare.com/jetracer-pro-ai-kit.htm) from waveshare, or the [AWS deepRacer](https://www.amazon.com/dp/B07JMHRKQG) from amazon.
 
-1.1.2. Develop the software solution to allow the racecar robot to drive, as fast as possible, in a closed course track with multiple lanes.
+* Develop the software solution to allow the racecar robot to drive, as fast as possible, in a closed course track with multiple lanes.
 
-1.1.3. Solve autonomous navigation challenges in a closed course like: lane detection, obstacle evasion, and obstacle avoidance changing lanes changing as outrunning other racecars.
+* Solve autonomous navigation challenges in a closed course like: lane detection, obstacle evasion, and obstacle avoidance changing lanes changing as outrunning other racecars.
 
-**1.2. Level of Autonomy**
+### Level of Autonomy
 
 The robot racecar should be able to be fully autonomous; with a predefined number of laps. The racecar will be placed on the start line, and a start action will trigger the car to complete the circuit in the shortest time possible.
 
@@ -53,24 +53,31 @@ Any human intervention during the race will disqualify the robot racecar. In thi
 
 Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha](https://en.wikipedia.org/wiki/Roborace), or the new [Indy Autonomous Challenge](https://www.indyautonomouschallenge.com/). Advancements in scale car racing will contribute to this nascent industry.
 
-**1.3 Description**
+## Description
 
-- Robot Racecar Hardware System overview
+### Robot Racecar Hardware System overview
 
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide18.jpeg" height=750/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide18.jpeg" height=500/>
 
-- GPIO Diagram:
 
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide13.jpeg" height=750/>
+### GPIO Diagram
 
-- Architecture of the application:
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide11.jpeg" height=750/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide13.jpeg" height=500/>
+
+
+### Architecture of the application
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide11.jpeg" height=500/>
  
  
  
 ## Hardware needed
 
-4.3.1 Racecar Proof of Concept Bill of Materials:
+### Racecar Proof of Concept Bill of Materials
+
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide17.jpeg" height=500/>
+
+
+
 
 | **Part** | **Quantity** | **Cost** | **Store / URL** |
 | --- | --- | --- | --- |
@@ -86,16 +93,12 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 | Double-sided tape | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/crafters-square-doubled-sided-tape-33ft/281210) |
 | Foam Board | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/readi-board-white-foam-boards/809955) |
 
-4.3.2 Robot Racecar 1.0 Bill of Materials:
+
+### Robot Racecar 1.0 Bill of Materials
 
 <img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture1.png" height=300/>
+
 <img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture2.png" height=300/>
-
-(This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves some components)
-
-All components are mounted to the wooden tray using the Nylon Hex Standoffs and Nuts Kit (the tray can be easily perforated). 
-
-For the wiring you can check [here](https://github.com/rafah1/Robot-RACECAR/blob/main/docs/tamiya/hardware_setup.md).
 
 | **Part** | **Quantity** | **Cost** | **Store / URL** |
 | --- | --- | --- | --- |
@@ -121,7 +124,9 @@ For the wiring you can check [here](https://github.com/rafah1/Robot-RACECAR/blob
 | RC Servo Multiplexer (optional) | 1 | $7.95 | [Amazon](https://www.amazon.com/gp/product/B00V3XMLEG/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;psc=1) |
 | Servo Extension Cable Pack (optional) | 1 | $7.99 | [Amazon](https://amzn.to/2SMnkSM) |
 
-
+(This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves some components)
+No need for 3D printing, all components can be mounted to the wooden tray using the Nylon Hex Standoffs and Nuts Kit (the tray can be easily perforated). 
+For the wiring you can check [here](https://github.com/rafah1/Robot-RACECAR/blob/main/docs/tamiya/hardware_setup.md).
 
 
 ## Algorithms
