@@ -57,14 +57,14 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 
 - Robot Racecar Hardware System overview
 
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide18.jpeg" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide18.jpeg" height=700/>
 
 - GPIO Diagram:
 
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide13.jpeg" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide13.jpeg" height=700/>
 
 - Architecture of the application:
-<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide11.jpeg" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide11.jpeg" height=700/>
  
  
  
@@ -144,20 +144,8 @@ You will find under the notebooks project directory, a series of Jupyter notbook
 
 ## Setup
 
-To get started with JetRacer, follow these steps
+For the software setup you can check [here]().
 
-1. Order parts from the bill of materials
-
-    - [Latrax version](docs/latrax/bill_of_materials.md) 
-    - [Tamiya version](docs/tamiya/bill_of_materials.md) 
-
-2. Follow the hardware setup
-
-    - [Latrax version](docs/latrax/hardware_setup.md) 
-    - [Tamiya version](docs/tamiya/hardware_setup.md) 
-
-3. Follow the [software setup](docs/software_setup.md)
-4. Run through the [examples](docs/examples.md)
 
 ## See also
 
