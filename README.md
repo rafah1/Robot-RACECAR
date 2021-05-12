@@ -97,7 +97,7 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 
 All components are mounted to the wooden tray using the Nylon Hex Standoffs and Nuts Kit (the tray can be easily perforated). 
 
-For the wiring you can check [here]()
+For the wiring you can check [here](https://github.com/rafah1/Robot-RACECAR/blob/main/docs/tamiya/hardware_setup.md).
 
 | **Part** | **Quantity** | **Cost** | **Store / URL** |
 | --- | --- | --- | --- |
