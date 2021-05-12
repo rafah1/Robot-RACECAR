@@ -1,5 +1,7 @@
 # Robot-RACECAR
 
+<img src="" height=300/>
+
 Robot-RACECAR is an autonomous AI racecar, based on:
 * 1/10th scale R/C racing chassis
 * Nvidia Jetson Nano SBC
