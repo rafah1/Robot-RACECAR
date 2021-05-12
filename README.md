@@ -1,6 +1,6 @@
 # Robot-RACECAR
 
-<img src="" height=300/>
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture3.png" height=300/>
 
 Robot-RACECAR is an autonomous AI racecar, based on:
 * 1/10th scale R/C racing chassis
