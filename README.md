@@ -1,18 +1,28 @@
-# JetRacer
+# Robot RACECAR
 
-> 3/20/2021 - The new jetcard image is now posted! It supports B01 rev board and is based on JetPack 4.5.1. Detail [here](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/software_setup.md#latest-release--but-not-yet-fully-verified--).
+JetRacer is an autonomous AI racecar, based on a 1/10th scale R/C racing chassis, using a NVIDIA Jetson Nano SBC, a single camera input, and a servo controller.  
 
-<img src="https://user-images.githubusercontent.com/4212806/67442981-ce459e00-f5b7-11e9-9c8a-14ab360decb8.gif" height=256>
 
-JetRacer is an autonomous AI racecar using NVIDIA Jetson Nano.  With JetRacer you will
+## References
 
-* Go fast - Optimize for high framerates to move at high speeds
+Nvidia IOT Jetbot resources:
 
-* Have fun - Follow examples and program interactively from your web browser
+https://github.com/NVIDIA-AI-IOT/jetbot
 
-By building and experimenting with JetRacer you will create fast AI pipelines and push the boundaries of speed.
+https://github.com/NVIDIA-AI-IOT/jetcam
 
-To get started, follow the [setup](#setup) below.
+https://github.com/NVIDIA-AI-IOT/jetcard
+
+https://github.com/NVIDIA-AI-IOT/jetracer
+
+https://github.com/NVIDIA-AI-IOT/torch2trt
+
+
+
+Robot-RACEACAR Presentation Video:
+
+https://youtu.be/KQGQ4Fs-Uek
+
 
 ## Cars
 
