@@ -93,7 +93,7 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 <img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture1.png" height=300/>
 <img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Picture2.png" height=300/>
 
-(This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves components)
+(This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves some components)
 
 | **Part** | **Quantity** | **Cost** | **Store / URL** |
 | --- | --- | --- | --- |
