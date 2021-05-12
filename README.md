@@ -57,7 +57,7 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
 
 - Robot Racecar Hardware System overview
 
-![](RackMultipart20210512-4-7shque_html_ab00d50affbf0700.gif)
+<img src="https://github.com/rafah1/Robot-RACECAR/blob/main/Final%20Project%20Robot%20RACECAR%20Presentation%20Slides/Slide11.jpeg" height=300/>
 
 - GPIO Diagram:
 
