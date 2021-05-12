@@ -70,19 +70,53 @@ Autonomous car racing is quickly becoming a new sport, like the [Roborace Alpha]
  
 ## Cars
 
-There are two different JetRacer cars that you can build.  They differ primarily in size and speed.  Which one to pick depends on your use case
+**4.3 Hardware needed:**
 
-|  Latrax Rally | Tamiya TT02 |
-|--------------|---------------|
-| <img src="https://user-images.githubusercontent.com/25759564/67250038-b1c22e00-f41e-11e9-82d2-bbb17526310b.jpg" width=256>  | <img src="https://user-images.githubusercontent.com/25759564/67250039-b1c22e00-f41e-11e9-931f-98c1729550d0.jpg" width=320>  | 
-| 1/18th scale |  1/10th scale |
-| Moderate Speed  |  High Speed  |
-| ~$400 total build cost | ~$600 total build cost |
-| Compact and portable |  Large and easy to modify |
-| Soldering required |  No soldering required  |
-| Base car pre-assembled | Base car assembly required |
+4.3.1 Racecar Proof of Concept Bill of Materials:
 
-If you have any questions, please reach out by [creating an issue](../..//issues).
+| **Part** | **Quantity** | **Cost** | **Store / URL** |
+| --- | --- | --- | --- |
+| Vintage Tamiya RC Car | 1 | N/A | Tamiya TA02 chassis with 2 servos or servo/ESC combo or equivalent |
+| Jetson Nano | 1 | $89.00 | [Microcenter Nvidia](https://developer.nvidia.com/buy-jetson) |
+| Micro SD Card 128GB | 1 | $19.99 | [Amazon](https://www.amazon.com/SanDisk-128GB-MicroSDXC-Memory-Adapter/dp/B08GYKNCCP/ref=sr_1_3?crid=3THXX9QW3YBHV&amp;dchild=1&amp;keywords=sandisk+micro+sd+card&amp;qid=1615155574&amp;s=electronics&amp;sprefix=sands%2Celectronics%2C170&amp;sr=1-3) |
+| USB Battery 20000mAh with display | 1 | $13.99 | [Amazon](https://www.amazon.com/24000mAh-Portable-External-Charging-Smartphones/dp/B07LFS3MQZ/ref=sr_1_3?dchild=1&amp;keywords=20000+battery+pack&amp;qid=1615156869&amp;sr=8-3) |
+| USB A -\&gt; 2.1mm Barrel Cable | 1 | $7.00 | [Amazon](https://amzn.to/2SMmu8A) |
+| RC battery pack | 1 | $39.99 | [Amazon](https://amzn.to/31330PW) |
+| RC battery charger | 1 | $20.99 | [Amazon](https://amzn.to/2GHi3ay) |
+| PWM Servo Motor Driver | 1 | $6.99 | [Amazon](https://amzn.to/317xYqr) |
+| Micro USB cable | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/e-circuit-micro-usb-cables-39-in/259578) |
+| Double-sided tape | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/crafters-square-doubled-sided-tape-33ft/281210) |
+| Foam Board | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/readi-board-white-foam-boards/809955) |
+
+4.3.2 Robot Racecar 1.0 Bill of Materials:
+
+(This bill of materials is inspired on the [Nvidia jetracer](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/tamiya/bill_of_materials.md), with modifications which reduce the cost and also improves components)
+
+| **Part** | **Quantity** | **Cost** | **Store / URL** |
+| --- | --- | --- | --- |
+| 1/10 Tamiya RC Car based on TT02 Chassis w/ESC and brushed motor | 1 | $100 - 130 | [amain](https://www.amainhobbies.com/search?s=tt02+electric) |
+| Hi torque metal servo | 1 | $16.66 | [Amazon](https://www.amazon.com/gp/product/B01MU7TQV8/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&amp;psc=1) |
+| Jetson Nano | 1 | $89.00 | [Microcenter Nvidia](https://developer.nvidia.com/buy-jetson) |
+| Micro SD Card 128GB | 1 | $19.99 | [Amazon](https://www.amazon.com/SanDisk-128GB-MicroSDXC-Memory-Adapter/dp/B08GYKNCCP/ref=sr_1_3?crid=3THXX9QW3YBHV&amp;dchild=1&amp;keywords=sandisk+micro+sd+card&amp;qid=1615155574&amp;s=electronics&amp;sprefix=sands%2Celectronics%2C170&amp;sr=1-3) |
+| Wi-Fi card w/6DBi antennas | 1 | $26.90 | [Amazon](https://www.amazon.com/gp/product/B07X2NLL85/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&amp;psc=1) |
+| Camera 160 Degree Wide Angle | 1 | $29.80 | [Amazon](https://www.amazon.com/gp/product/B07T43K7LC/ref=ppx_yo_dt_b_asin_title_o05_s02?ie=UTF8&amp;psc=1) |
+| USB Battery 20000mAh with display | 1 | $13.99 | [Amazon](https://www.amazon.com/24000mAh-Portable-External-Charging-Smartphones/dp/B07LFS3MQZ/ref=sr_1_3?dchild=1&amp;keywords=20000+battery+pack&amp;qid=1615156869&amp;sr=8-3) |
+| USB A -\&gt; 2.1mm Barrel Cable | 1 | $7.00 | [Amazon](https://amzn.to/2SMmu8A) |
+| Battery Strap Pack | 1 | $7.99 | [Amazon](https://www.amazon.com/gp/product/B01CJG5JV2/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&amp;psc=1) |
+| RC battery pack | 1 | $39.99 | [Amazon](https://amzn.to/31330PW) |
+| RC battery charger | 1 | $20.99 | [Amazon](https://amzn.to/2GHi3ay) |
+| PWM Servo Motor Driver | 1 | $6.99 | [Amazon](https://amzn.to/317xYqr) |
+| Micro USB cable | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/e-circuit-micro-usb-cables-39-in/259578) |
+| Wooden tray / Foam board | 1 | $1.00 | [Dollar Store](https://www.dollartree.com/crafters-square-wooden-tray/296724) |
+| Nylon Hex Standoffs and Nuts Kit | 1 | $12.99 | [Amazon](https://www.amazon.com/gp/product/B015S27EG2/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&amp;psc=1) |
+| Jumper Wire Pack | 1 | $6.98 | [Amazon](https://www.amazon.com/gp/product/B01EV70C78/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1) |
+| M3 Universal Screw Pack | 1 | $12.94 | [Amazon](https://amzn.to/2LNGt6q) |
+| RC 3-Channel Receiver (optional) | 1 | $10.99 | [Amazon](https://www.amazon.com/Flysky-FS-GR3E-Receiver-FS-GT2B-FS-GT3B/dp/B087ZKFGK7/ref=sr_1_21?dchild=1&amp;keywords=Flysky+RC+GR3E&amp;qid=1615159397&amp;s=toys-and-games&amp;sr=1-21) |
+| RC 3-Channel Transmitter (optional) | 1 | $53.00 | [Amazon](https://www.amazon.com/FLYSKY-FS-GT3C-fsgt3c-2-4GHz-Transmitter/dp/B00B3NWVR8/ref=sr_1_19?dchild=1&amp;keywords=Flysky+RC+GR3E&amp;qid=1615159397&amp;s=toys-and-games&amp;sr=1-19) |
+| RC Servo Multiplexer (optional) | 1 | $7.95 | [Amazon](https://www.amazon.com/gp/product/B00V3XMLEG/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;psc=1) |
+| Servo Extension Cable Pack (optional) | 1 | $7.99 | [Amazon](https://amzn.to/2SMnkSM) |
+
+
 
 
 ## Examples
